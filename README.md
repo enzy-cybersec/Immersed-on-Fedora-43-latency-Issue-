@@ -3,7 +3,7 @@
 This is about changing video encoding/decoding process from cpu to gpu!
 
 This issue happens due to not installing the drivers or system/immersed issues
-You can verify this by 'vainfo' and if you see a message like 'vaInitialize failed with error code -1 (unknown libva error)'
+You can verify this by ```vainfo``` and if you see a message like ```vaInitialize failed with error code -1 (unknown libva error)```
 
 first you need to install the nvidia graphics va-api drivers if they are not installed already:
 
