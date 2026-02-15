@@ -15,11 +15,14 @@ first you need to install the nvidia graphics va-api drivers if they are not ins
 
 # Swap to the "Freeworld" Drivers
 ```sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld```
+
 ```sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld```
 
 # Force the Environment Variables
 ```export LIBVA_DRIVER_NAME=nvidia```
+
 ```export __GLX_VENDOR_LIBRARY_NAME=nvidia```
+
 ```vainfo```
 
 # Make it perminant
